@@ -1,0 +1,13 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+
+## Usage
+`@pull-issue {ISSUE_KEY}` uses the 'getJiraIssue' tool from the Atlassian MCP server to pull issue {ISSUE_KEY} from Jira.
+
+## Example
+```bash
+@pull-issue BYTE-13290
+```

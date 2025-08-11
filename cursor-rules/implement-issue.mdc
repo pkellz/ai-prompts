@@ -1,0 +1,69 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+
+## Usage
+
+`@implement-issue {ISSUE_KEY}` will implement the work for Jira issue {ISSUE_KEY}. 
+
+If you are not already aware about Jira issue {ISSUE_KEY}, use `@pull-issue {ISSUE_KEY}` to fetch issue details via the Atlassian MCP server.
+
+Then checkout a branch with a name like `{ISSUE_KEY}-{BRANCH_NAME}`.
+
+Then begin implementing the issue such that the requirements / acceptance criteria are met. For any Figma links you encounter, use the Figma MCP to fetch the design data. DO NOT commit any changes yet as I would like to review them first.
+
+
+## Best Practices
+
+### 1. Code Changes
+- Follow coding standards
+- Add/update tests
+- Update any relevant documentation
+- Handle edge cases
+
+### 2. Testing
+- Add new test cases as needed
+- Update existing tests as needed
+- Test edge cases as needed
+- Verify accessibility as needed
+
+### 3. Error Handling
+- Handle implementation errors
+- Provide clear error messages
+- Roll back failed changes
+- Log issues
+- Suggest fixes
+
+### 4. Documentation
+- Update component docs as needed
+- Add code comments as needed
+- Update README if needed
+- Document breaking changes as needed
+- Note any tech debt
+
+## Implementation Strategies
+
+### 1. Component Changes
+```typescript
+// Before implementing UI changes:
+1. Create/update component
+2. Add props/interfaces
+3. Implement logic
+4. Add styles
+```
+
+### 2. API Changes
+```typescript
+// Before implementing API changes:
+1. Update interfaces
+2. Implement endpoints
+3. Add validation
+4. Add error handling
+```
+
+## Example
+```bash
+@implement-issue BYTE-13290
+```

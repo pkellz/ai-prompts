@@ -1,0 +1,18 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+
+## Usage
+
+`@active-prs {REPOSITORY_SLUG}` finds all non-draft PRs (pull requests) for the {REPOSITORY_SLUG} repository. It will use the 'getPullRequests' Bitbucket MCP tool to find the PRs. It will return a list of PRs with the following information:
+- PR ID
+- PR Title
+- PR Author
+- PR Created At
+
+## Example
+```bash
+@active-prs suresmile-www
+```

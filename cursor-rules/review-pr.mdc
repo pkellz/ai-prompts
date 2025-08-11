@@ -1,0 +1,24 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+
+## Usage
+
+`@review-pr {PR_ID}` analyzes a diff of the PR (pull request) with ID {PR_ID} and performs a comprehensive code review. Use the 'getPullRequest' Bitbucket MCP tool to get information about the PR but DO NOT use the 'getPullRequestDiff' Bitbucket MCP tool to get the diff. Instead ensure you are in the correct project directory, switch to the PR branch locally, and find the diff. Once you have the diff provide the following information:
+
+**Intent and Purpose:** Summarize the goal of the changes. Explain what functionality or behavior the changes aim to introduce, modify, or fix.
+
+**Potential Issues:** Identify any possible problems the changes might introduce, such as:
+    * Bugs or unintended side effects.
+    * Performance concerns.
+    * Code quality issues (e.g., readability, maintainability, scalability).
+    * Violations of best practices or standards.
+
+**Suggestions for Improvement:** Recommend any improvements or alternative approaches that could enhance the code. 
+
+## Example
+```bash
+@review-pr 290
+```

@@ -1,0 +1,3 @@
+/json
+
+Take the information on the current page and convert it to raw JSON format.​

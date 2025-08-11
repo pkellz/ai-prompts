@@ -1,0 +1,15 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+
+## Usage
+`@create-pr {ISSUE_KEY}` creates a new Bitbucket PR (pull request) for issue {ISSUE_KEY}.
+
+The branch is already pushed. Using the 'createPullRequest' Bitbucket MCP tool create a PR for issue {ISSUE_KEY} with an appropriate title and description. PR title should start with the issue key. Don't assign any reviewers.
+
+## Example
+```bash
+@create-pr BYTE-13290
+```
