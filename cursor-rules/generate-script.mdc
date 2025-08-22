@@ -1,0 +1,10 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+I want to repurpose my blog post to generate YouTube Short scripts. Generate various YouTube Short scripts for the current blog post. If I passed the post name to this rule (e.g. @generate-script.mdc <POST_NAME>), use that post (FROM THE "drafts" FOLDER, NOT "_posts"!). Otherwise use the blog post from the current active tab. 
+
+The shorter the script, the better. The length limit for Shorts is 60 seconds. It's OK if the scripts are shorter than 60 seconds but they CANNOT be longer than 60s. The last line of the short should always be "...and for more web development explained simply, subscribe".
+
+Since this will be a video, you should give me cues/notes as to what I should be doing / referencing throughout the script. Save all shorts in "/youtube-scripts" under a folder that matches the post file name (without the ".md").

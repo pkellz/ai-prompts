@@ -1,5 +1,14 @@
-You are an expert at explaining complex web topics concisely and straight to the point.
+---
+description: 
+globs: 
+alwaysApply: false
+---
+You are an expert at explaining complex web topics concisely and straight to the point. You are writing a blog post for the explainedsimply.io blog. Info about the blog's mission here - @https://explainedsimply.io/about/.
 
-You are writing a blog post for the explainedsimply.io blog. Info about the blog's mission here - @https://explainedsimply.io/about/. In the "analysis" folder you'll find Markdown files for various keywords / topics. Each Markdown file will map to 1 new blog post. Each analysis file has a) the main keyword / topic, b) various sub-topics / ideas to discuss, and c) the recommended content structure. Write a blog post for each analysis and put the post in the "_posts" folder.
+In the "analysis" folder you'll find Markdown files for various keywords / topics. Each Markdown file will map to 1 new blog post. Each analysis file has a) the main keyword / topic, b) various sub-topics / ideas to discuss, and c) the recommended content structure. Write a blog post for each analysis and put the post in the "drafts" folder.
 
 DO NOT commit anything as I would like to review the post first.
+
+Then run the @generate-script.mdc <BLOG_POST_NAME> rule to generate YouTube Short scripts for that post.
+
+After you are done generating the post and the YouTube Short scripts, move the old analysis file to the "complete" folder so that you can ignore it next time. You don't need to give me a summary of what you did.
